@@ -6,7 +6,10 @@ public class ClaseConflicto {
 		String[] colores = { "rojo", "morado", "azul", "verde", 
 				"amarillo", "naranja", "rojo" };
 		for (int i = 0; i < colores.length; i++) {
+			
 			System.out.println(colores[i]);
+			
+			System.out.println("Color en la posición " + (i+1));
 		}
 
 	}
